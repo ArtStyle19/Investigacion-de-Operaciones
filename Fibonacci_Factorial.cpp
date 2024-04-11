@@ -29,11 +29,18 @@ int factorialRecusivo(int n = 1){
 }
 
 int main (int argc, char *argv[]) {
-    int n;
-    cout << "Ingrese n: ";
-    if (!(cin >> n)) {
-        cout << "Ingrese un numero valido" << endl;
-        return 0;
+    int n=-1;
+    cout << "Ingrese n";
+    while (n<=0) {
+        if (n==0) {
+            cout << 1 <<'\n';
+            return 0;
+        }
+        cout << "(Debe ser un numero mayor a 0): " << '\n';
+        if (!(cin >> n)) {
+            cout << "Ingrese un numero valido" << endl;
+            return 0;
+        }
     }
     cout << "Primeros " << n << " numeros fibonacci" <<'\n';
     fibonacci(n);
