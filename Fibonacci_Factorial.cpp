@@ -1,3 +1,8 @@
+//Jorge Guillermo Olarte Quispe
+
+//La idea de este programa es pedir al usuario un numero (n)
+//Para luego retonar los n primeros numeros fibonacci y
+//Ademas el factorial de n -> (!n) 
 #include <iostream>
 
 using namespace std;
