@@ -1,3 +1,11 @@
+//Jorge Guillermo Olarte Quispe
+
+//La idea de este programa es pedir al usuario un numero i (se puede saltar usando enter) 
+//y tambien pedir n(el numero limite de las sumatorias)
+//Para luego retonar las sumatorias en rango de i y n
+//Ademas se trata de agregar restricciones como:
+//Ingresar letras en vez de numeros
+//Ingresar un numero i mayor a n( no posible )
 #include <cmath>
 #include <iostream>
 
