@@ -46,29 +46,6 @@ void ex3(int n = 1, int i = 1){
 }
 
 
-void fibonacci(int n, int a = 1, int b = 1)
-{
-    if (n >= 1) {
-        cout << a << " ";
-        fibonacci(n - 1, b, a + b);
-    }else {
-        cout << '\n';
-    }
-}
-
-
-int factorialRecusivo(int n = 1){
-    if (n==1) {
-        cout << "1" << " = ";
-        return 1;
-    } else {
-        cout << n << " * " ;
-        return n * factorialRecusivo(n-1);
-    }
-}
-
-
-
 int main() {
     int i = 1, n;
     char input[100];
